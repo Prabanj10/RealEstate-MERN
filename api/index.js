@@ -2,7 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import userRouter from './routes/userRoute.js';
-import authrouter from './routes/authRoute.js';
+import authRouter from './routes/authRoute.js';
+import listingRouter from './routes/listingRoute.js';
 import cookieParser from 'cookie-parser';
 
 dotenv.config();
@@ -26,7 +27,8 @@ app.listen(3000, (req, res) => {
 });
 
 app.use('/api/user', userRouter);
-app.use('/api/auth', authrouter);
+app.use('/api/auth', authRouter);
+app.use('/api/listing', listingRouter);
 
 // Centralized error handling middleware
 
