@@ -16,9 +16,10 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    avatar:{
-      type:String,
-      default:"https://imgs.search.brave.com/FWGVp1vQr9EbONcHMuxajbVqoRbscBT4dPEQYcaAy4s/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGV1/YmVudmlsbGVjb25m/ZXJlbmNlcy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTUv/MTIvUHJvZmlsZVBo/b3RvX1BILmpwZw"
+    avatar: {
+      type: String,
+      default:
+        'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png',
     },
   },
   { timestamps: true }
