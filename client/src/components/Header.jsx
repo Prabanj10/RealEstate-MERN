@@ -28,9 +28,9 @@ const Header = () => {
     <header className="bg-slate-200 shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
-          <h1 className="font -bold text-sm sm:text-lg md:text-xl flex flex-wrap">
-            <span className="text-slate-500">Real</span>
-            <span className="text-slate-700">Estate</span>
+          <h1 className="font-semibold text-sm sm:text-lg md:text-xl flex flex-wrap">
+            <span className="text-slate-500">House</span>
+            <span className="text-slate-600">Connect</span>
           </h1>
         </Link>
         <form
