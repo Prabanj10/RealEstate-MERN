@@ -12,7 +12,6 @@ const Home = () => {
   const [saleListings, setSaleListings] = useState([]);
   const [rentListings, setRentListings] = useState([]);
 
-  console.log(saleListings);
 
   useEffect(() => {
     const fetchOfferListings = async () => {
@@ -59,9 +58,9 @@ const Home = () => {
           place with ease
         </h1>
         <div className=" text-gray-400 text-xs sm:text-sm">
-          HouseConnect is the best place to find your next perfect place to live{' '}
+          HouseConnect is The Best Place to Find Your Perfect Home{' '}
           <br />
-          We have a wide range of properties for you to choose from
+          Explore a Wide Range of Properties Today!
         </div>
         <Link
           to={'/search'}
