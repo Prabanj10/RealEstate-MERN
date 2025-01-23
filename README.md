@@ -51,22 +51,25 @@ HouseConnect is a dynamic web application that enables users to seamlessly buy, 
 3. **Set Environment Variables**  
    - In the root folder, create a `.env` file and add:  
      ```env
-     MONGO_URI=your-mongodb-connection-string
+     MONGODB_URI=your-mongodb-connection-string
      JWT_SECRET=your-jwt-secret
      FIREBASE_API_KEY=your-firebase-api-key
      ```
+    - In the client folder , create a `.env ` file and add :
+     ```env
+     VITE_FIREBASE_API_KEY = Your-Firebase-Api-key
 
 4. **Run the Development Servers**  
-   - In the **root folder**, start the backend server:  
+    - In the **root folder**, start the backend server:  
      ```bash
      npm run dev
      ```  
-   - In the **client folder**, start the frontend server:  
+    - In the **client folder**, start the frontend server:  
      ```bash
      npm run dev
      ```  
 
-5. **Access the App**  
+6. **Access the App**  
    - Frontend: Open `http://localhost:5173` in your browser.  
    - Backend:  `http://localhost:3000`
 
